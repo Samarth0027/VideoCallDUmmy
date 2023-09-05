@@ -3,7 +3,7 @@ import React from 'react';
 import  ZegoUIKitPrebuiltCall,  {ONE_ON_ONE_VIDEO_CALL_CONFIG} from '@zegocloud/zego-uikit-prebuilt-call-rn';
 import { View } from 'react-native';
 
-export default function VoiceCallPage({route, navigation}) {
+export default function VideoCallPage({route, navigation}) {
   const { userName } = route.params;
   return (
     <View style={{flex:1}}>
